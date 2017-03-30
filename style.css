@@ -16,6 +16,7 @@ nav {
 
 	height: 40px;
 	float: right;
+	margin: 0;
 
 }
 
@@ -28,25 +29,34 @@ a {
 }
 
 #connect {
-	border: ;
+	border: solid blue 1px;
+	border-radius: 5px;
+	background-color: blue;
 }
 
 /*=== MAIN ===*/
+
+section {
+	width: 600px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 
 img {
 	height: 50%;
 	width: 50%;
 
-}
-
-
-#searchform {
 
 }
+
+
+
 
 #center {
 		height: 76px;
 		width: 571px;
+		margin: auto;
 }
 
 #center p input {
@@ -57,6 +67,11 @@ img {
 
 
 /*=== FOOTER ===*/
+
+
+footer {
+	margin: 0;
+}
 
 #fbar {
 	height: 40x;
