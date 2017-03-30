@@ -17,6 +17,7 @@ nav {
 	height: 40px;
 	float: right;
 	margin: 0;
+	padding: 10px;
 
 }
 
@@ -26,21 +27,25 @@ a {
 	color: black;
 	text-decoration: none;
 	margin: 0 5px 0 5px;
+	padding: 5px;
 }
 
 #connect {
 	border: solid blue 1px;
 	border-radius: 5px;
 	background-color: blue;
+
 }
+
+
 
 /*=== MAIN ===*/
 
 section {
-	width: 600px;
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
@@ -54,16 +59,20 @@ img {
 
 
 #center {
-		height: 76px;
-		width: 571px;
-		margin: auto;
+		/*eight: 76px;
+		width: 571px;*/
+
+
 }
 
 #center p input {
 		height: 30%;
-		width: 50%;
+		width: 95%;
+		justify-content: center;
 
 }
+
+
 
 
 /*=== FOOTER ===*/
@@ -71,11 +80,13 @@ img {
 
 footer {
 	margin: 0;
+	background-color: lightgrey;
+	padding: 10px;
 }
 
 #fbar {
 	height: 40x;
-	background-color: lightgrey;
+
 
 }
 
@@ -88,3 +99,5 @@ footer {
 	float: right;
 
 }
+
+
