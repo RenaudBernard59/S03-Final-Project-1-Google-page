@@ -7,17 +7,19 @@ body {
 /*=== HEADER ===*/
 
 
-# accessibility {
-	height: 15px;
-
+#accessibility {
+	position: absolute;
+	top: 0;
 }
 
 nav {
 
 	height: 40px;
-	float: right;
 	margin: 0;
 	padding: 10px;
+	position: absolute;
+	top: 15px;
+	right: 0;
 
 }
 
@@ -58,17 +60,13 @@ img {
 
 
 
-#center {
-		/*eight: 76px;
-		width: 571px;*/
-
-
 }
 
 #center p input {
-		height: 30%;
-		width: 95%;
-		justify-content: center;
+
+	height: 30%;
+	width: 95%;
+	justify-content: center;
 
 }
 
@@ -82,12 +80,14 @@ footer {
 	margin: 0;
 	background-color: lightgrey;
 	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 #fbar {
 	height: 40x;
-
-
 }
 
 #fsl {
